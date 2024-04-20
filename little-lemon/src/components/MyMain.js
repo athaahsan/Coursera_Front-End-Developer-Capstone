@@ -8,7 +8,6 @@ import {
     MDBValidation,
     MDBValidationItem,
     MDBInput,
-    MDBInputGroup,
     MDBBtn
 } from 'mdb-react-ui-kit';
 import '../styles/MyMain.css';

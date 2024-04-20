@@ -1,20 +1,8 @@
-import React, { useState } from 'react';
-import {
-  MDBNavbar,
-  MDBNavbarNav,
-  MDBNavbarItem,
-  MDBNavbarToggler,
-  MDBNavbarLink,
-  MDBContainer,
-  MDBIcon,
-  MDBCollapse,
-  MDBBtn
-} from 'mdb-react-ui-kit';
+import React from 'react';
 import '../styles/MyHeader.css';
 import bgImage from '../images/restaurant.jpg';
 
-export default function App() {
-  const [showBasic, setShowBasic] = useState(false);
+export default function MyHeader() {
 
   return (
     <header>
