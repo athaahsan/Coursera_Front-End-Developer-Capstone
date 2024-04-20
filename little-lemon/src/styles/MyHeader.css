@@ -1,0 +1,10 @@
+
+#intro-example {
+    height: 100px;
+}
+
+@media (min-width: 992px) {
+    #intro-example {
+        height: 200px;
+    }
+}
